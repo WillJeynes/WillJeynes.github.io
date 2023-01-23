@@ -312,6 +312,9 @@ footer a {
     }
 }
 
+footer span a {
+    padding-left: 2px;
+}
 
 /*Font size*/
 p {
