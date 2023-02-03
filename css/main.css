@@ -386,3 +386,7 @@ p {
 h2 {
     clear:both;
 }
+/*Tweakpoint: link color ovverride*/
+a {
+    color: var(--articleTextColour) !important;
+}
