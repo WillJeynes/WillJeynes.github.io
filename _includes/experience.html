@@ -1,0 +1,21 @@
+<div class="experience">
+
+    
+    {% assign sub = work | first %} 
+    {% assign name = sub |  first %}
+    {% assign content = work[name] %}
+    
+    <div class="experience-image">
+        <img  src="{{content.image}}" />
+    </div>
+    <div class="experience-content">
+        <h1>{{name}}</h1>    
+    
+        <h3>{{ content.title }}</h3>
+        <div>
+            {{ content.content | markdownify}}
+        </div>
+    </div>
+    
+    
+</div>

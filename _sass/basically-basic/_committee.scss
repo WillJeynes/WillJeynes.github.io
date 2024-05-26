@@ -1,0 +1,53 @@
+.small-img {
+    border: 10px solid black;
+    max-width: 50%;
+}
+.experience {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 36px;
+    margin: 8px;
+    border-radius: 10px;
+}
+.experience-image {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    border-right-style: solid;
+    border-right-width: 0px;
+    padding-right: 20px;
+}
+.experience-image img {
+    border: 2px solid white;
+
+}
+.experience-content {
+    border-left-width: 1px;
+    border-left-style: solid;
+    padding-left: 20px;
+    max-width: 80%;
+}
+.dg {
+    max-width: 600px; 
+    display: block;
+}
+.dg img {
+    height: 50px; 
+    width: 50px;
+    background-color: white;
+}
+.dg div {
+    height: min-content;
+}
+
+@media screen and (max-width: 1500px) {
+  
+      .dg {
+        max-width: 1900px;
+        width: 100%;
+      }
+  
+        
+  }

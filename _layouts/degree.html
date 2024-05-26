@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; padding: 20px;">
+  {% for course in page.items %}
+    {% include course.html %}
+  {% endfor %}
+</div>
+

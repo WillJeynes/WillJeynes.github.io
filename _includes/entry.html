@@ -1,0 +1,43 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | strip_html %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% assign escaped = post.title | uri_escape %}
+
+<article class="entry" id="{{escaped}}">
+  <header class="entry-header">
+    <h3 class="entry-title">
+      <span rel="bookmark">{{ title }}</span>
+    </h3>
+    {% if post.image.thumbnail %}
+      {% assign entry_image = post.image.thumbnail | relative_url | escape %}
+      
+      <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
+    {% endif %}
+  </header>
+  <footer class="entry-meta">
+    <ul>
+    {% if post.date %}
+      <li><span class="icon">{% include icon-calendar.svg %}</span><time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %Y" }}</time></li>
+    {% endif %}
+    {% if post.languages %}
+      <li><span class="icon">{% include icon-codepen.svg %}</span><span>{{post.languages}}</span></li>
+    {% endif %}
+    {% if post.technologies %}
+      <li><span class="icon">{% include icon-codepen.svg %}</span><span>{{post.technologies}}</span></li>
+    {% endif %}
+    </ul>
+  </footer>
+  <div class="entry-excerpt">
+    {% if post.content %}
+      <!-- {{ post.excerpt | markdownify }} -->
+      {{ post.content | markdownify }}
+
+      {% if post.link %}
+        <p><a href="{{post.link}}" class="more-link">LINK<span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a></p>
+      {% endif %}
+    {% endif %}
+  </div>
+</article>
