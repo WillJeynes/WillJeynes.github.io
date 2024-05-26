@@ -1,9 +1,9 @@
 ---
 layout: page
 ---
-
-<p id="cat">{{page.class}}</p>
-<p id="cat2">{{page.title | uri_escape }}</p>
+<h1>Redirecting...</h1>
+<p style="display: none;" id="cat">{{page.class}}</p>
+<p style="display: none;" id="cat2">{{page.title | uri_escape }}</p>
 <script>
   window.location.replace("/projects/" + document.getElementById("cat").innerText.toLowerCase() + "#" + document.getElementById("cat2").innerText);
 </script>

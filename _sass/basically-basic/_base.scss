@@ -4,6 +4,7 @@
 
 html {
   @include fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size);
+  scroll-behavior: smooth;
 }
 
 body {
