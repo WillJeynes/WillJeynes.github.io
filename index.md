@@ -11,9 +11,9 @@ Hi,
 
 I'm Will Jeynes, a Software Developer and Computer Science student originally from Grimsby, Lincolnshire. 
 
-I am current working on my industrial placement year at DFDS ([more info here](/work.html)).
+I am current working on my industrial placement year at DFDS ([more info here](/work)).
 
-I am current receiving my degree from the University of Sheffield ([more info here](/degree.html)).
+I am current receiving my degree from the University of Sheffield ([more info here](/degree)).
 
 The main languages and technologies I know are C#, Java, Ruby and Linux.
 
