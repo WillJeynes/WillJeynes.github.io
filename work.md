@@ -7,7 +7,7 @@ items:
         title: "Software Developer"
         image: "/assets/images/companies/ever.jpg"
         content: | 
-            Worked part time remote while also completing my University Second year. Worked on a range of projects for clients, mostly using Flutter as a frontend and PHP as a backend. Some projects include BLE Lighting, [Wellmatch backend](/projects/work/#Wellmatch%20(Everbit)) and [Meals](http://localhost:4000/projects/work/#Meals%20(Everbit)).
+            Worked part time remote while also completing my University Second year. Worked on a range of projects for clients, mostly using Flutter as a frontend and PHP as a backend. Some projects include BLE Lighting, [Wellmatch backend](/projects/work/#Wellmatch%20(Everbit)) and [Meals](/projects/work/#Meals%20(Everbit)).
     - DFDS:
         title: "Student Backend Developer"
         image: "/assets/images/companies/dfds.jpg"
@@ -17,7 +17,7 @@ items:
         title: "Secretary"
         image: "/assets/images/companies/gds.jpg"
         content: | 
-            Helped start the society at the end of my first year at university. Created the website as well the automatic mailer system. Taught technical sessions on a range of topics as part of our events.
+            Helped start the society at the end of my first year at university. Created the website as well the automatic mailer system. Taught technical sessions on a range of topics as part of our events. [Website Information](/projects/uni/#Game%20Dev%20Website)
     - Lyke:
         title: "Software Developer"
         image: "/assets/images/companies/l.jpg"
