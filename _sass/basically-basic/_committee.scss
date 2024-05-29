@@ -66,12 +66,23 @@
     max-width: 1115px;
 }
 
+.cent {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+}
+
 
 @media screen and (max-width: 1175px) {
     .homeitem {
+        width:100%;
         max-width: 100%;
         padding: 18px;
         margin: 4px;
+    }
+
+    .homeitem img {
+        width: 100%;
+        max-width: 480px;
     }
     
 }

@@ -19,6 +19,7 @@ items:
 
       The main languages and technologies I know are C#, Java, Ruby and Linux.
   - "":
+    class: cent
     content: |
       ![Headshot of me](assets/images/me.jpg)
   - "Work":
