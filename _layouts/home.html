@@ -4,11 +4,18 @@ layout: default
 
 {% include page-intro.html %}
 
-<main id="main" class="page-content" aria-label="Content">
+<!-- <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div>{{ content }}</div>
     
     
     
   </div>
-</main>
+</main> -->
+
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; padding: 20px;">
+  {% for item in page.items %}
+    {% include home-item.html %}
+  {% endfor %}
+</div>

@@ -51,3 +51,24 @@
   
         
   }
+
+.homeitem {
+    background-color: black;
+    padding: 36px;
+    margin: 8px;
+    border-radius: 10px;
+    max-width: 550px;
+    font-size: x-large;
+}
+
+.lg {
+    // min-width: 400px;
+    max-width: 1115px;
+}
+
+
+@media screen and (max-width: 1175px) {
+    .homeitem {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+{% assign sub = item | first %} 
+{% assign name = sub |  first %}
+{% assign content = item %}
+
+<div class="homeitem {{content.class}}" >
+
+    
+
+
+    <div  >
+        <h1>{{name}}</h1>    
+        <div>
+            {{ content.content | markdownify}}
+        </div>
+    </div>
+    
+    
+</div>
