@@ -58,11 +58,11 @@
     margin: 8px;
     border-radius: 10px;
     max-width: 550px;
-    font-size: x-large;
+    // font-size: x-large;
 }
 
 .lg {
-    // min-width: 400px;
+    width: 100%;
     max-width: 1115px;
 }
 
@@ -70,5 +70,8 @@
 @media screen and (max-width: 1175px) {
     .homeitem {
         max-width: 100%;
+        padding: 18px;
+        margin: 4px;
     }
+    
 }
