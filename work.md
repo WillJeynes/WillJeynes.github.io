@@ -3,6 +3,16 @@ layout: work
 title: Work
 permalink: /work/
 items:
+    - Game Development Society:
+        title: "Secretary"
+        image: "/assets/images/companies/gds.jpg"
+        content: | 
+            Have come back to the Game Development Society to build upon the now fully-operational university group, wherein we will continue to run sessions, organize socials and more
+    - DFDS:
+        title: "Student Software Engineer"
+        image: "/assets/images/companies/dfds.jpg"
+        content: | 
+            Worked as part of a multi-disciplinary team developing critical infrastructure for use in sites across europe. Some of the main subject areas included a [new automotive solution](/projects/work/#Automotive%20Solution%20(DFDS)), [monolith updates](/projects/work/#Vessel%20Operations%20(DFDS)) and [componentization + kafka work](/projects/work/#Kafka%20(DFDS)) 
     - Everbit:
         title: "Software Developer"
         image: "/assets/images/companies/ever.jpg"
