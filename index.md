@@ -32,7 +32,7 @@ items:
       ![Headshot of me](assets/images/me.jpg)
   - "Work":
     content: |
-      I am recently finished my industrial placement year at DFDS ([more info here](/work)).
+      I have recently finished my industrial placement year at DFDS ([more info here](/work)).
   - "Degree":
     content: |
       I am currently in the third and final year of my degree from the University of Sheffield.
