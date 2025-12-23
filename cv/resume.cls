@@ -47,7 +47,7 @@
 
 \newcommand{\ulhref}[2]{\href{#1}{\uline{#2}}}
 \newcommand{\vertline}{$\lvert$ }
-
+\newcommand{\gigantic}{\fontsize{40}{80}\selectfont}
 
 \newcommand{\name}[1]{\renewcommand{\name}{#1}} % Defines the \name command to set the user's name
 
@@ -56,7 +56,7 @@
 \newcommand{\printname}{
 
 \begin{center}
-	\huge\bfseries\name
+	\gigantic\bfseries\name
 \end{center}
 }
 
