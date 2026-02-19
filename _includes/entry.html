@@ -35,9 +35,15 @@
       <!-- {{ post.excerpt | markdownify }} -->
       {{ post.content | markdownify }}
 
+
+      {% if post.github %}
+        {% include  icon-github.html username=post.github label='View on GitHub' class='fillwhite' %}
+      {% endif %}
+
       {% if post.link %}
         <p><a href="{{post.link}}" class="more-link">LINK<span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a></p>
       {% endif %}
+
     {% endif %}
   </div>
 </article>
