@@ -38,6 +38,14 @@
 
       {% if post.github %}
         {% include  icon-github.html username=post.github label='View on GitHub' class='fillwhite' %}
+        {% if post.gitea %}
+          <br>
+        {% endif %}
+      {% endif %}
+      
+
+      {% if post.gitea %}
+        {% include  icon-gitea.html username=post.gitea label='View on Gitea' class='fillwhite' %}
       {% endif %}
 
       {% if post.link %}
