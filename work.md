@@ -3,6 +3,11 @@ layout: work
 title: Work
 permalink: /work/
 items:
+    - Cambridge Consultants:
+        title: "Graduate Software Engineer"
+        image: "/assets/images/companies/cc.png"
+        content: | 
+            Working within muliciplinary teams, providing innovation for a large range of clients. 
     - Game Development Society:
         title: "Secretary"
         image: "/assets/images/companies/gds.jpg"

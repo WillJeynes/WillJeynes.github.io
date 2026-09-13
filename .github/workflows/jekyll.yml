@@ -33,6 +33,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Build CV PDF from LaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/WJ-CV.tex
       - name: Setup Ruby
         uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408 # v1.127.0
         with:
