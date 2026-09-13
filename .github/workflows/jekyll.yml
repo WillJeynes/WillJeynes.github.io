@@ -36,6 +36,7 @@ jobs:
       - name: Build CV PDF from LaTeX
         uses: xu-cheng/latex-action@v3
         with:
+          working_directory: cv
           root_file: cv/WJ-CV.tex
       - name: Setup Ruby
         uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408 # v1.127.0
